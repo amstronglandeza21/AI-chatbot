@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@ui/*": ["components/ui/*"]
+    }
+  }
+
+
+,
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
